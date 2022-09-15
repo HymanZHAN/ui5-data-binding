@@ -1,0 +1,16 @@
+[
+  {
+    "DirectorID": 1,
+    "Name": "Christopher Nolan",
+    "Age": 52,
+    "Location": "London",
+    "Oscars": 5
+  },
+  {
+    "DirectorID": 2,
+    "Name": "Quentin Tarantino",
+    "Age": 59,
+    "Location": "United States",
+    "Oscars": 8
+  }
+]

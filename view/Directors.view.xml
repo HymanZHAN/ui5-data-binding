@@ -1,0 +1,36 @@
+<mvc:View
+    controllerName="directors.movies.controller.Directors"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+>
+    <Table id="directorsTable" items="{/Directors}" itemPress=".onItemPressed" fixedLayout="false">
+        <columns>
+            <Column id="d1">
+                <Text text="{i18n>DirectorID}" />
+            </Column>
+            <Column id="d2" demandPopin="true">
+                <Text text="{i18n>DirectorName}" />
+            </Column>
+            <Column id="d3" demandPopin="true">
+                <Text text="{i18n>DirectorAge}" />
+            </Column>
+            <Column id="d4" minScreenWidth="Tablet" demandPopin="true">
+                <Text text="{i18n>DirectorLocation}" />
+            </Column>
+            <Column id="d5" minScreenWidth="Tablet" demandPopin="true">
+                <Text text="{i18n>DirectorOscars}" />
+            </Column>
+        </columns>
+        <items>
+            <ColumnListItem type="Active">
+                <cells>
+                    <Text text="{DirectorID}" />
+                    <Text text="{Name}" />
+                    <Text text="{Age}" />
+                    <Text text="{Location}" />
+                    <Text text="{Oscars}" />
+                </cells>
+            </ColumnListItem>
+        </items>
+    </Table>
+</mvc:View>

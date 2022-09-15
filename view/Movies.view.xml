@@ -1,0 +1,25 @@
+<mvc:View
+	controllerName="directors.movies.controller.Movies"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Table id="moviesTable"
+		items="{viewModel>/movies}"
+		fixedLayout="false">
+		<columns>
+			<Column id="d1"><Text text="{i18n>MovieID}"/></Column>
+			<Column id="d2" demandPopin="true"><Text text="{i18n>MovieName}"/></Column>
+			<Column id="d3" demandPopin="true"><Text text="{i18n>MovieYear}"/></Column>
+			<Column id="d4" minScreenWidth="Tablet" demandPopin="true"><Text text="{i18n>MovieMainCharacter}"/></Column>
+		</columns>
+		<items>
+			<ColumnListItem type="Active">
+				<cells>
+					<Text text="{viewModel>MovieID}"/>
+					<Text text="{viewModel>Name}"/>
+					<Text text="{viewModel>Year}"/>
+					<Text text="{viewModel>MainCharacter}"/>
+				</cells>
+			</ColumnListItem>
+		</items>
+	</Table>
+</mvc:View>

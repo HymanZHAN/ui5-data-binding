@@ -1,0 +1,44 @@
+[
+  {
+    "DirectorID": 1,
+    "MovieID": 1,
+    "Name": "Inception",
+    "Year": 2010,
+    "MainCharacter": "Leonardo Di Caprio"
+  },
+  {
+    "DirectorID": 1,
+    "MovieID": 2,
+    "Name": "Interstellar",
+    "Year": 2014,
+    "MainCharacter": "Matthew McConaughey"
+  },
+  {
+    "DirectorID": 1,
+    "MovieID": 3,
+    "Name": "Tenet",
+    "Year": 2020,
+    "MainCharacter": "John David Washington"
+  },
+  {
+    "DirectorID": 2,
+    "MovieID": 4,
+    "Name": "Pulp Fiction",
+    "Year": 1994,
+    "MainCharacter": "John Travolta"
+  },
+  {
+    "DirectorID": 2,
+    "MovieID": 5,
+    "Name": "Inglourious Basterds",
+    "Year": 2009,
+    "MainCharacter": "Brad Pitt"
+  },
+  {
+    "DirectorID": 2,
+    "MovieID": 6,
+    "Name": "Django",
+    "Year": 2012,
+    "MainCharacter": "Jamie Foxx"
+  }
+]

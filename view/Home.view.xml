@@ -1,0 +1,15 @@
+<mvc:View
+    controllerName="directors.movies.controller.Home"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc">
+    <Page title="{i18n>HomePageTitle}" class="sapUiResponsiveContentPadding">
+        <content>
+            <Button
+                id="directorsListBtn"
+                text="{i18n>ShowDirectors}"
+                press=".onNavToDirectorsList"
+                class="sapUiTinyMarginEnd"
+            />
+        </content>
+    </Page>
+</mvc:View>

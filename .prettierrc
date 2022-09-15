@@ -1,0 +1,14 @@
+{
+  "tabWidth": 2,
+  "xmlWhitespaceSensitivity": "ignore",
+  "overrides": [
+    {
+      "files": "*.xml",
+      "options": {
+        "tabWidth": 4,
+        "printWidth": 100,
+        "arrowParens": "always"
+      }
+    }
+  ]
+}

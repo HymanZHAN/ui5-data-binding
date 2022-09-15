@@ -1,0 +1,12 @@
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    displayBlock="true"
+    height="100%"
+    busyIndicatorDelay="0"
+    controllerName="directors.movies.controller.NotFound"
+>
+    <Page>
+        <Text text="Not Found" />
+    </Page>
+</mvc:View>
